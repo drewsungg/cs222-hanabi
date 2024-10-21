@@ -368,10 +368,12 @@
           downloadLogBtn.style.display = 'inline-block';
         } else {
           displayMessage(data.agent_data);
-          currentRound = data.current_round;
-          updateRoundInfo();
+          if (data.round_finished) {
+            currentRound = data.current_round;
+            updateRoundInfo();
+          }
           showLoadingSpinner();
-          setTimeout(fetchNextAgent, 500); // short delay before fetching next agent bc it is super fast
+          setTimeout(fetchNextAgent, 500); // short delay before fetching next agent
         }
       });
     }

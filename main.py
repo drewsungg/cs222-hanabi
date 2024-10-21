@@ -199,7 +199,7 @@ def add_agent():
   data = request.json
   new_agent = {"name": data['name'], "persona": data['persona']}
   agent_list.append(new_agent)
-  game = init_game(agent_list[:5])  # agent limit 5 for now
+  game = init_game(agent_list)
   game.log_user_agent(data['name'], data['persona'])
   return jsonify({"status": "success"})
 
@@ -212,6 +212,7 @@ def next_agent():
 
   if current_round < total_rounds:
     if current_agent_index == 0:
+      # Shuffle the agents at the beginning of each round
       last_speaker = game.agents[-1] if game_data else None
       remaining_agents = [agent for agent in game.agents if agent != last_speaker]
       random.shuffle(remaining_agents)
@@ -231,23 +232,33 @@ def next_agent():
     game_data.append(agent_data)
     current_agent_index += 1
 
-    if current_agent_index == len(game.agents):
+    round_finished = current_agent_index == len(game.agents)
+    if round_finished:
       current_agent_index = 0
       current_round += 1
 
-    return jsonify({"agent_data": agent_data, "current_round": current_round})
+    return jsonify({
+      "agent_data": agent_data, 
+      "current_round": current_round,
+      "round_finished": round_finished
+    })
   elif current_round == total_rounds:
     round_data, winner, vote_list = game.run_round(current_round, total_rounds)
     vote_results = {agent.name: sum(1 for vote in vote_list if vote[1] == agent.name) for agent in game.agents}
     game.log_voting_round(round_data, vote_results, winner)
-    return jsonify({"finished": True, "winner": winner, "votes": vote_list, "round_data": round_data})
+    return jsonify({
+      "finished": True, 
+      "winner": winner, 
+      "votes": vote_list, 
+      "round_data": round_data
+    })
   else:
     return jsonify({"finished": True})
 
 @app.route('/reset', methods=['POST'])
 def reset_game():
   global game, current_agent_index, game_data, agent_list
-  agent_list = agent_list[:4]
+  agent_list = agent_list[:-1]
   game = None
   current_agent_index = 0
   game_data = []
