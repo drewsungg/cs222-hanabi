@@ -14,9 +14,10 @@ import re
 from openai import OpenAI
 from anthropic import Anthropic 
 
-load_dotenv()
-
-oai = OpenAI(api_key = os.getenv('OPENAI_API_KEY'))
+# load_dotenv()
+# oai = OpenAI(api_key = os.getenv('OPENAI_API_KEY'))
+from settings import *
+oai = OpenAI(api_key = OPENAI_API_KEY)
 
 ant = Anthropic()
 ant.api_key = os.getenv('ANTHROPIC_API_KEY')
