@@ -90,7 +90,8 @@ class Game:
     random.shuffle(shuffled_agents)
     for agent in shuffled_agents:
       print("=" * 20)
-      placeholders = {"AGENT_NAME": agent.name}
+      placeholders = {"AGENT_NAME": agent.name,
+                      "POSITION": self.position}
       instruction = modular_instructions(modules)
       prompt = fill_prompt(instruction, placeholders)
       response = self.instruct_agent(agent, prompt)
@@ -160,7 +161,7 @@ class Game:
 
   reflect = {
     "name": "reflection",
-    "instruction": "Reflect on the situation by answering each of the following questions.\n1] Knowledge: What do you know so far about the others?\n2] Support: You can advocate either for yourself or another person to be the leader -- compare the pros and cons of everyone in the group (including yourself) and decide who in the group seems like the best candidate based on what you know so far. If not much has been said yet, you can ask others to share their answers to a question that would help you make your decision. Make your decision independently of who others might be advocating for. In this step include a sentence saying 'I think the best candidate is...' or 'I'm not sure yet, so I'll ask about...'",
+    "instruction": "Reflect on the situation by answering each of the following questions.\n1] Knowledge: What do you know so far about the others?\n2] Support: You can advocate either for yourself or another person to be the !<POSITION>! -- compare the pros and cons of everyone in the group (including yourself) and decide who in the group seems like the best candidate based on what you know so far. If not much has been said yet, you can ask others to share their answers to a question that would help you make your decision. Make your decision independently of who others might be advocating for. In this step include a sentence saying 'I think the best candidate is...' or 'I'm not sure yet, so I'll ask about...'",
     "description": "your reflection",
   }
 
@@ -172,7 +173,7 @@ class Game:
 
   message = {
     "name": "message",
-    "instruction": "Write your 1-3 sentence message to the group, incorporating your plan from above. Make sure your message is RESPONSIVE: reference and respond to what has previously been said, and make sure the conversation flows naturally.",
+    "instruction": "Write your 2-4 sentence message to the group, incorporating your plan from above. Make sure your message is RESPONSIVE: reference and respond to what has previously been said, answer any questions that were directed towards you, and make sure the conversation flows naturally.",
     "description": "your message",
   }
 
@@ -184,7 +185,7 @@ class Game:
 
   vote = {
     "name": "vote",
-    "instruction": "The conversation has ended. Write a vote for the person you think should be the leader. You cannot vote for yourself, even if others support you. Respond with ONLY the name of the person you vote for.",
+    "instruction": "The conversation has ended. Write a vote for the person you think should be the !<POSITION>!. You cannot vote for yourself, even if others support you. Respond with ONLY the name of the person you vote for.",
     "description": "your vote",
   }
 
