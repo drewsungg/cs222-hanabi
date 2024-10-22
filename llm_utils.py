@@ -10,6 +10,7 @@ import pickle
 import pandas as pd
 import json
 import re
+from typing import Dict, List, Tuple
 
 from openai import OpenAI
 from anthropic import Anthropic 
@@ -30,7 +31,7 @@ def gen_oai(messages, model='gpt-4o', temperature=1):
       model=model,
       temperature=temperature,
       messages=messages,
-      max_tokens=500)
+      max_tokens=1000)
     content = response.choices[0].message.content
     return content
   except Exception as e:
@@ -73,37 +74,34 @@ def fill_prompt(prompt, placeholders):
   return prompt
 
 def make_output_format(modules):
-  '''
-  given some module names in the form (name)
-  get the module from a file?
-  - would be like name, prompt text
-
-  make the description of the output format (json for now)
-
-  assumes all module outputs are strings
-  '''
-  output_format = "Provide your response in the following JSON format:\n\n{"
+  output_format = "Output Format:\n{\n"
   for module in modules:
-    output_format += f"\n\t\"{module['name']}\": \"[{module['description']}]\""
-    if module != modules[-1]:
-      output_format += ","
-  output_format += "\n}"
+    if 'name' in module and module['name']:
+      output_format += f'    "{module["name"].lower()}": "<your response>",\n'
+  output_format = output_format.rstrip(',\n') + "\n}"
   return output_format
 
 def modular_instructions(modules):
-  '''
-  given some module names in the form (name)
-  get the module from a file?
-  - would be like name, prompt text
+    '''
+    given some modules in the form
 
-  make the whole prompt
-  '''
-  prompt = ""
-  for i, module in enumerate(modules):
-    prompt += f"Step {i + 1} ({module['name']}): {module['instruction']}\n"
-  prompt += "\n"
-  prompt += make_output_format(modules)
-  return prompt
+    name (optional, makes it a step)
+    instruction (required)
+
+    make the whole prompt
+    '''
+    prompt = ""
+    step_count = 0
+    for module in modules:
+      if 'name' in module:
+        # print(module)
+        step_count += 1
+        prompt += f"Step {step_count} ({module['name']}): {module['instruction']}\n"
+      else:
+        prompt += f"{module['instruction']}\n"
+    prompt += "\n"
+    prompt += make_output_format(modules)
+    return prompt
 
 # Prompt outputs
 def parse_json(response, target_keys=None):
@@ -118,6 +116,7 @@ def parse_json(response, target_keys=None):
     return parsed
   except json.JSONDecodeError:
     print("Tried to parse json, but it failed. Switching to regex fallback.")
+    print(f"Response: {cleaned_response}")
     parsed = {}
     for key_match in re.finditer(r'"(\w+)":\s*', cleaned_response):
       key = key_match.group(1)
@@ -146,3 +145,18 @@ def parse_json(response, target_keys=None):
     if target_keys:
       parsed = {key: parsed.get(key, "") for key in target_keys}
     return parsed
+  
+
+# end-to-end generation and parsing
+def mod_gen(modules: List[Dict], placeholders: Dict, target_keys = None) -> Dict:
+  prompt = modular_instructions(modules)
+  filled = fill_prompt(prompt, placeholders)
+  # print(filled)
+  response = simple_gen_oai(filled)
+  if len(response) == 0:
+    print("Error: response was empty")
+    return {}
+  if target_keys == None:
+    target_keys = [module["name"].lower() for module in modules if "name" in module]
+  parsed = parse_json(response, target_keys)
+  return parsed

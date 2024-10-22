@@ -3,7 +3,7 @@ import random
 import io
 from flask import Flask, render_template, jsonify, request, send_file
 from agents import agent_list
-from llm_utils import gen_oai, parse_json, modular_instructions
+from llm_utils import *
 
 class Agent:
   def __init__(self, name, persona):
@@ -37,7 +37,7 @@ class Game:
     return f"""
     YOU: You are {agent.name}, {agent.persona}. Speak in character as {agent.name} with very short messages in a conversational tone. 
     
-    SCENARIO: You are in a group of people containing {', '.join(a.name for a in self.agents)}. You don't know anything about the other people in the group besides what they've shared in this conversation, and vice versa. Your group is trying to decide who should be the group leader, and you want to be the leader. At the end of the discussion, each person will vote for one person in the group other than themselves.
+    SCENARIO: You are in a group of people containing {', '.join(a.name for a in self.agents)}. You are meeting everyone else for the first time. Your group is trying to decide who should be the group leader. At the end of the discussion, each person will vote for one person in the group other than themselves.
     
     STYLE: Write in the style of someone texting, with short messages and minimal punctuation. No emojis. Speak in your own personal voice. Don't use generic or vague language."""
 
@@ -89,8 +89,10 @@ class Game:
     random.shuffle(shuffled_agents)
     for agent in shuffled_agents:
       print("=" * 20)
+      placeholders = {"AGENT_NAME": agent.name}
       instruction = modular_instructions(modules)
-      response = self.instruct_agent(agent, instruction)
+      prompt = fill_prompt(instruction, placeholders)
+      response = self.instruct_agent(agent, prompt)
       parsed = parse_json(response, target_keys=target_keys)
 
       agent_data = {"name": agent.name}
@@ -151,37 +153,37 @@ class Game:
 
   intro = {
     "name": "introduction",
-    "instruction": "Because the conversation has just started, everyone needs to introduce themselves. Create a plan for a compelling introduction. If you come off as overzealous, others might not want to vote for you. Be creative in order to craft the most strategic introduction.",
+    "instruction": "Because the conversation has just started, everyone needs to introduce themselves. Create a plan for a compelling introduction. Be creative in order to craft the most strategic introduction.",
     "description": "your introduction plan",
   }
 
   reflect = {
     "name": "reflection",
-    "instruction": "Reflect on the situation by answering each of the following questions. What do you know so far? Based on your personality, what persuasive arguments do you have for why you should be the leader? How is the conversation going, and is it the right time to advocate for yourself?",
+    "instruction": "Reflect on the situation by answering each of the following questions.\n1] Knowledge: What do you know so far about the others?\n2] Support: You can advocate either for yourself or another person to be the leader -- compare the pros and cons of everyone in the group (including yourself) and decide who in the group seems like the best candidate based on what you know so far. If not much has been said yet, you can ask others to share their answers to a question that would help you make your decision. Make your decision independently of who others might be advocating for. In this step include a sentence saying 'I think the best candidate is...' or 'I'm not sure yet, so I'll ask about...'",
     "description": "your reflection",
   }
 
   plan = {
     "name": "plan",
-    "instruction": "Based on your reflection, write a plan for how you will persuade the others to vote for you. What are the strengths and weaknesses of the other candidates? What strengths of yours, and weaknesses of the others, will you focus on? How should you structure your message? Be creative in order to craft the best rhetorical strategy. Don't try to respond to everyone at once: your message should be a focused argument that will persuade the group to vote for you. Remember that you want to win by any means necessary, and only one person can win.",
+    "instruction": "Based on your reflection, write a plan for how you will either gather more information or persuade the others to vote for your preferred candidate. Don't try to respond to everyone at once: your message should be a focused argument that will help you gather more information or persuade the group to vote for your preferred candidate. Remember that only one person can win.",
     "description": "your plan",
   }
 
   message = {
     "name": "message",
-    "instruction": "Write your 1-3 sentence message to the group, incorporating your plan from above. Make sure your message is RESPONSIVE: respond to what has previously been said, and make sure the conversation flows naturally.",
+    "instruction": "Write your 1-3 sentence message to the group, incorporating your plan from above. Make sure your message is RESPONSIVE: reference and respond to what has previously been said, and make sure the conversation flows naturally.",
     "description": "your message",
   }
 
   vote_plan = {
-  "name": "vote_plan",
-  "instruction": "The conversation has ended, and it is time to think about who you will vote for. Think step-by-step: first list the pros and cons of each person, then compare them against the things you value most. Provide your reasoning in thisstep.",
-  "description": "your vote",
+    "name": "vote_plan",
+    "instruction": "The conversation has ended, and it is time to think about who you will vote for. Think step-by-step: first list the pros and cons of each person (excluding yourself, as you cannot vote for yourself), then compare them against the things you value most. Provide your reasoning in this step.",
+    "description": "your vote",
   }
 
   vote = {
     "name": "vote",
-    "instruction": "The conversation has ended. Write a vote for the person you think should be the leader. Respond with ONLY the name of the person you vote for -- it CANNOT be yourself.",
+    "instruction": "The conversation has ended. Write a vote for the person you think should be the leader. You cannot vote for yourself, even if others support you. Respond with ONLY the name of the person you vote for.",
     "description": "your vote",
   }
 
@@ -260,10 +262,12 @@ def next_agent():
   else:
     return jsonify({"finished": True})
 
+original_agent_count = len(agent_list)
+
 @app.route('/reset', methods=['POST'])
 def reset_game():
   global game, current_agent_index, game_data, agent_list
-  agent_list = agent_list[:-1]
+  agent_list = agent_list[:original_agent_count]
   game = None
   current_agent_index = 0
   game_data = []
