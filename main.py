@@ -14,6 +14,7 @@ class Agent:
 class Game:
   def __init__(self, agents):
     self.agents = agents
+    self.position = "group leader"
     self.public_messages = []
     self.round_number = 0
     self.winner = ""
@@ -37,7 +38,7 @@ class Game:
     return f"""
     YOU: You are {agent.name}, {agent.persona}. Speak in character as {agent.name} with very short messages in a conversational tone. 
     
-    SCENARIO: You are in a group of people containing {', '.join(a.name for a in self.agents)}. You are meeting everyone else for the first time. Your group is trying to decide who should be the group leader. At the end of the discussion, each person will vote for one person in the group other than themselves.
+    SCENARIO: You are in a group of people containing {', '.join(a.name for a in self.agents)}. You are meeting everyone else for the first time. Your group is trying to decide who should be the {self.position}. At the end of the discussion, each person will vote for one person in the group other than themselves.
     
     STYLE: Write in the style of someone texting, with short messages and minimal punctuation. No emojis. Speak in your own personal voice. Don't use generic or vague language."""
 
@@ -207,6 +208,7 @@ def add_agent():
   new_agent = {"name": data['name'], "persona": data['persona']}
   agent_list.append(new_agent)
   game = init_game(agent_list)
+  game.position = data['position']
   game.log_user_agent(data['name'], data['persona'])
   return jsonify({"status": "success"})
 

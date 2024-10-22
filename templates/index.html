@@ -216,6 +216,10 @@
           <textarea id="agent-persona" rows="8" required placeholder="a PhD student at Stanford University. You're interested in AI agents and simulation, and you're currently working on homework for CS 222. In your free time, you like to draw and play board games. You have two cute hamsters, Adobo and Bingus. In the past week, you've gone to the arcade three times to play Dance Dance Revolution. You dislike when tourists at the Oval take pictures of you riding your bike."></textarea>
         </div>
       </div>
+      <div class="form-group">
+        <label for="position">Position:</label>
+        <input type="text" id="position" placeholder="group leader" required>
+      </div>
       <button id="start-game">Start</button>
     </div>
     <div id="game-page" style="display: none;">
@@ -254,6 +258,7 @@
     const gameContainer = document.getElementById('game-container');
     const loadingSpinner = document.getElementById('loading-spinner');
     const downloadLogBtn = document.getElementById('download-log');
+    const positionInput = document.getElementById('position');
 
     let currentRound = 0;
     let totalRounds = 3;
@@ -381,6 +386,7 @@
     startGameBtn.addEventListener('click', () => {
       userAgentName = agentNameInput.value.trim();
       const userAgentPersona = agentPersonaInput.value.trim();
+      const position = positionInput.value.trim() || 'group leader';
       
       if (!userAgentName || userAgentPersona.length === 0) {
         alert('Please enter both name and persona for your agent.');
@@ -393,7 +399,11 @@
       fetch('/add_agent', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: userAgentName, persona: userAgentPersona })
+        body: JSON.stringify({ 
+          name: userAgentName, 
+          persona: userAgentPersona,
+          position: position
+        })
       })
       .then(response => response.json())
       .then(data => {
