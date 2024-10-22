@@ -66,7 +66,7 @@ class Game:
     if current_round == 1:
       return [self.intro, self.message]
     elif current_round == total_rounds:
-      return [self.reflect, self.plan, self.vote]
+      return [self.vote_plan, self.vote]
     else:
       return [self.reflect, self.plan, self.message]
 
@@ -138,8 +138,7 @@ class Game:
     self.log += f"\n\n## Round {self.round_number} (Voting)\n\n"
     for agent_data in round_data:
       self.log += f"### {agent_data['name']}\n\n"
-      self.log += f"**Reflection**: {agent_data['reflection']}\n\n"
-      self.log += f"**Plan**: {agent_data['plan']}\n\n"
+      self.log += f"**Plan**: {agent_data['vote_plan']}\n\n"
       self.log += f"**Vote**: {agent_data['vote']}\n\n"
 
     self.log += "\n## Voting Results\n\n"
@@ -172,6 +171,12 @@ class Game:
     "name": "message",
     "instruction": "Write your 1-3 sentence message to the group, incorporating your plan from above. Make sure your message is RESPONSIVE: respond to what has previously been said, and make sure the conversation flows naturally.",
     "description": "your message",
+  }
+
+  vote_plan = {
+  "name": "vote_plan",
+  "instruction": "The conversation has ended, and it is time to think about who you will vote for. Think step-by-step: first list the pros and cons of each person, then compare them against the things you value most. Provide your reasoning in thisstep.",
+  "description": "your vote",
   }
 
   vote = {
