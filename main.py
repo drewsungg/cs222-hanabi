@@ -116,10 +116,10 @@ class Game:
     return round_data, None, None
 
   def _process_voting_results(self, round_data):
-    vote_results = {agent.name.lower(): 0 for agent in self.agents}
+    vote_results = {agent.name: 0 for agent in self.agents}
     vote_list = []
     for agent_data in round_data:
-      vote = agent_data["vote"].lower()
+      vote = agent_data.get("vote")
       vote_results[vote] += 1
       vote_list.append((agent_data["name"], vote))
 
