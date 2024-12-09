@@ -1,0 +1,1072 @@
+
+Game Starting! Meet our players:
+
+huanxing's persona: age 18-24 male from a urban area values compassion introverted person awkward in nature enjoys travelling interested in reading politically moderate has 4-5 close friends Myers-Briggs type infp seeks personal development concerned about loneliness approaches problems through asking for help makes decisions by analyzing all options is agnostic values tech gadget aspires to achieving work-life balance values empathy in others identifies as asian, speaks chinese
+Personality traits: social
+
+btiryaki's persona: age 25-34 female from a suburban area values ambition extroverted, thoughtful person reserved in nature enjoys pursuing hobbies interested in sports politically conservative has 4-5 close friends Myers-Briggs type istj-t seeks financial stability concerned about loneliness approaches problems through logical analysis makes decisions by analyzing all options is agnostic values tech gadget aspires to financial independence values intelligence in others identifies as white/caucasian, speaks other
+Personality traits: analytical
+
+xingyiz's persona: age 18-24 female from a urban area values independence thoughtful person friendly in nature enjoys helping others interested in reading politically apolitical has 4-5 close friends Myers-Briggs type intp seeks personal development concerned about failure approaches problems through intuition makes decisions by relying on instinct is atheist values family heirloom aspires to becoming a leader in my field values empathy in others identifies as asian, speaks chinese
+Personality traits: analytical, social, intuitive
+
+bob9001's persona: age 18-24 male from a multiple locations area values ambition thoughtful person reserved in nature enjoys pursuing hobbies interested in video games politically moderate has more than 5 close friends Myers-Briggs type intj seeks career growth concerned about loneliness approaches problems through intuition makes decisions by relying on instinct is atheist values home aspires to becoming a leader in my field values intelligence in others identifies as asian, speaks chinese
+Personality traits: analytical, intuitive
+
+yinjunw's persona: age 18-24 male from a multiple locations area values ambition introvrted person friendly in nature enjoys traveling interested in reading politically mederate has 4-5 close friends Myers-Briggs type intj seeks personal development concerned about rejection approaches problems through logical analysis makes decisions by analyze all opinions is atheist values family aspires to becoming a leader in my field values honesty in others identifies as asian, speaks chinese
+Personality traits: analytical, social
+
+================================================================================
+
+
+Turn 1: huanxing's turn
+Current Score: 0
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 8 | Life tokens: 3
+Hands:
+huanxing: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+btiryaki: Card 0: [Y 2] (no hints) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (no hints) | Card 3: [W 4] (no hints)
+xingyiz: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+bob9001: Card 0: [G 1] (no hints) | Card 1: [Y 4] (no hints) | Card 2: [B 4] (no hints) | Card 3: [W 2] (no hints)
+yinjunw: Card 0: [R 3] (no hints) | Card 1: [R 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+
+Action Summary:
+Gave hint to btiryaki about color Y
+----------------------------------------
+
+Turn 2: btiryaki's turn
+Current Score: 0
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 7 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (color:Y) | Card 3: (no hints)
+xingyiz: Card 0: [G 1] (no hints) | Card 1: [Y 4] (no hints) | Card 2: [B 4] (no hints) | Card 3: [W 2] (no hints)
+bob9001: Card 0: [R 3] (no hints) | Card 1: [R 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+yinjunw: Card 0: [R 1] (no hints) | Card 1: [W 1] (no hints) | Card 2: [R 1] (no hints) | Card 3: [W 3] (no hints)
+
+Action Summary:
+Gave hint to huanxing about rank 1
+----------------------------------------
+
+Turn 3: xingyiz's turn
+Current Score: 0
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 6 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [G 1] (no hints) | Card 1: [Y 4] (no hints) | Card 2: [B 4] (no hints) | Card 3: [W 2] (no hints)
+xingyiz: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [R 1] (rank:1) | Card 1: [W 1] (rank:1) | Card 2: [R 1] (rank:1) | Card 3: [W 3] (no hints)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+
+Action Summary:
+Gave hint to huanxing about color R
+----------------------------------------
+
+Turn 4: bob9001's turn
+Current Score: 0
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 5 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 3] (no hints) | Card 1: [R 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+xingyiz: Card 0: [R 1] (color:R, rank:1) | Card 1: [W 1] (rank:1) | Card 2: [R 1] (color:R, rank:1) | Card 3: [W 3] (no hints)
+bob9001: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+yinjunw: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 1
+----------------------------------------
+
+Turn 5: yinjunw's turn
+Current Score: 1
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 5 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 1] (color:R, rank:1) | Card 1: [W 1] (rank:1) | Card 2: [R 1] (color:R, rank:1) | Card 3: [W 3] (no hints)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+bob9001: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+yinjunw: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+
+Action Summary:
+Gave hint to huanxing about color R
+----------------------------------------
+
+Turn 6: huanxing's turn
+Current Score: 1
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 4 | Life tokens: 3
+Hands:
+huanxing: Card 0: (color:R, rank:1) | Card 1: (rank:1) | Card 2: (color:R, rank:1) | Card 3: (no hints)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+xingyiz: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+bob9001: Card 0: [Y 4] (no hints) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (no hints)
+yinjunw: Card 0: [R 3] (no hints) | Card 1: [R 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 2
+----------------------------------------
+
+Turn 7: btiryaki's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 4 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (color:Y) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (no hints) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (no hints)
+bob9001: Card 0: [R 3] (no hints) | Card 1: [R 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+yinjunw: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [W 3] (no hints) | Card 3: [R 2] (no hints)
+
+Action Summary:
+Gave hint to bob9001 about color Y
+----------------------------------------
+
+Turn 8: xingyiz's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 3 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [W 3] (no hints) | Card 3: [R 2] (no hints)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about color R
+----------------------------------------
+
+Turn 9: bob9001's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 2 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+xingyiz: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [W 3] (no hints) | Card 3: [R 2] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (color:Y)
+yinjunw: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+
+Action Summary:
+Gave hint to btiryaki about color Y
+----------------------------------------
+
+Turn 10: yinjunw's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (color:R) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [W 3] (no hints) | Card 3: [R 2] (no hints)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+bob9001: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (color:R) | Card 2: (no hints) | Card 3: (no hints)
+
+Action Summary:
+Gave hint to huanxing about color R
+----------------------------------------
+
+Turn 11: huanxing's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: (rank:1) | Card 1: (color:R, rank:1) | Card 2: (no hints) | Card 3: (color:R)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+xingyiz: Card 0: [B 1] (no hints) | Card 1: [G 2] (no hints) | Card 2: [Y 5] (no hints) | Card 3: [W 2] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 12: btiryaki's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (color:Y) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+yinjunw: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [R 2] (color:R) | Card 3: [R 3] (no hints)
+
+Action Summary:
+Gave hint to huanxing about color R
+----------------------------------------
+
+Turn 13: xingyiz's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [R 2] (color:R) | Card 3: [R 3] (color:R)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+
+Action Summary:
+Discarded card 0
+Information tokens: 0
+----------------------------------------
+
+Turn 14: bob9001's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [W 4] (no hints) | Card 3: [B 1] (no hints)
+xingyiz: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [R 2] (color:R) | Card 3: [R 3] (color:R)
+bob9001: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (color:Y)
+yinjunw: Card 0: [G 2] (no hints) | Card 1: [Y 5] (no hints) | Card 2: [W 2] (no hints) | Card 3: [R 4] (no hints)
+
+Action Summary:
+Gave hint to btiryaki about color Y
+----------------------------------------
+
+Turn 15: yinjunw's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (color:R) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [W 1] (rank:1) | Card 1: [R 1] (color:R, rank:1) | Card 2: [R 2] (color:R) | Card 3: [R 3] (color:R)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+bob9001: Card 0: [G 2] (no hints) | Card 1: [Y 5] (no hints) | Card 2: [W 2] (no hints) | Card 3: [R 4] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (color:R) | Card 2: (no hints) | Card 3: (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 16: huanxing's turn
+Current Score: 2
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 0 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: (rank:1) | Card 1: (color:R, rank:1) | Card 2: (color:R) | Card 3: (color:R)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+xingyiz: Card 0: [G 2] (no hints) | Card 1: [Y 5] (no hints) | Card 2: [W 2] (no hints) | Card 3: [R 4] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [B 1] (no hints) | Card 3: [G 1] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 3
+----------------------------------------
+
+Turn 17: btiryaki's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (color:Y) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [B 1] (no hints) | Card 3: [G 1] (no hints)
+yinjunw: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (no hints)
+
+Action Summary:
+Gave hint to xingyiz about rank 2
+----------------------------------------
+
+Turn 18: xingyiz's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (rank:2) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: (rank:2) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+bob9001: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (no hints)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+
+Action Summary:
+Discarded card 1
+Information tokens: 0
+----------------------------------------
+
+Turn 19: bob9001's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [B 1] (no hints) | Card 3: [G 1] (no hints)
+xingyiz: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (color:Y)
+yinjunw: Card 0: [G 2] (rank:2) | Card 1: [W 2] (rank:2) | Card 2: [R 4] (no hints) | Card 3: [G 3] (no hints)
+
+Action Summary:
+Gave hint to huanxing about color Y
+----------------------------------------
+
+Turn 20: yinjunw's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (color:R) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+bob9001: Card 0: [G 2] (rank:2) | Card 1: [W 2] (rank:2) | Card 2: [R 4] (no hints) | Card 3: [G 3] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (color:R) | Card 2: (no hints) | Card 3: (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 21: huanxing's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: (color:R, rank:1) | Card 1: (color:R) | Card 2: (color:R) | Card 3: (color:Y)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [W 4] (no hints)
+xingyiz: Card 0: [G 2] (rank:2) | Card 1: [W 2] (rank:2) | Card 2: [R 4] (no hints) | Card 3: [G 3] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [G 1] (no hints) | Card 3: [B 5] (no hints)
+
+Action Summary:
+Gave hint to btiryaki about rank 1
+----------------------------------------
+
+Turn 22: btiryaki's turn
+Current Score: 3
+Current Game State:
+Stacks: R: 1 | Y: 0 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y, rank:1) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (color:Y, rank:1) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [G 1] (no hints) | Card 3: [B 5] (no hints)
+yinjunw: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (color:Y)
+
+Action Summary:
+Played card 2 successfully
+New score: 4
+----------------------------------------
+
+Turn 23: xingyiz's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (rank:2) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: (rank:2) | Card 1: (rank:2) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (color:Y)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 24: bob9001's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [G 1] (no hints) | Card 3: [B 5] (no hints)
+xingyiz: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (color:Y)
+bob9001: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (color:Y)
+yinjunw: Card 0: [G 2] (rank:2) | Card 1: [W 2] (rank:2) | Card 2: [G 3] (no hints) | Card 3: [G 4] (no hints)
+
+Action Summary:
+Gave hint to xingyiz about color G
+----------------------------------------
+
+Turn 25: yinjunw's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 3
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (color:R) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 1] (color:R, rank:1) | Card 1: [R 2] (color:R) | Card 2: [R 3] (color:R) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+bob9001: Card 0: [G 2] (color:G, rank:2) | Card 1: [W 2] (rank:2) | Card 2: [G 3] (color:G) | Card 3: [G 4] (color:G)
+yinjunw: Card 0: (color:R) | Card 1: (color:R) | Card 2: (no hints) | Card 3: (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 26: huanxing's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 3
+Hands:
+huanxing: Card 0: (color:R, rank:1) | Card 1: (color:R) | Card 2: (color:R) | Card 3: (color:Y)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+xingyiz: Card 0: [G 2] (color:G, rank:2) | Card 1: [W 2] (rank:2) | Card 2: [G 3] (color:G) | Card 3: [G 4] (color:G)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [B 5] (no hints) | Card 3: [G 2] (no hints)
+
+Action Summary:
+Played card 0 unsuccessfully
+New score: 4
+----------------------------------------
+
+Turn 27: btiryaki's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R) | Card 2: [B 5] (no hints) | Card 3: [G 2] (no hints)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about rank 2
+----------------------------------------
+
+Turn 28: xingyiz's turn
+Current Score: 4
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 1 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:G, rank:2) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:G) | Card 3: [None 0] (color:G)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [B 4] (no hints) | Card 2: [W 2] (no hints) | Card 3: [Y 1] (color:Y)
+xingyiz: Card 0: (color:G, rank:2) | Card 1: (rank:2) | Card 2: (color:G) | Card 3: (color:G)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 5
+----------------------------------------
+
+Turn 29: bob9001's turn
+Current Score: 5
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [R 2] (color:R, rank:2) | Card 2: [B 5] (no hints) | Card 3: [G 2] (rank:2)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (color:Y)
+yinjunw: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+
+Action Summary:
+Discarded card 1
+Information tokens: 0
+----------------------------------------
+
+Turn 30: yinjunw's turn
+Current Score: 5
+Current Game State:
+Stacks: R: 1 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (color:R, rank:2) | Card 2: [None 0] (no hints) | Card 3: [None 0] (rank:2)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+bob9001: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (color:R, rank:2) | Card 2: (no hints) | Card 3: (rank:2)
+
+Action Summary:
+Played card 1 successfully
+New score: 6
+----------------------------------------
+
+Turn 31: huanxing's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [Y 2] (color:Y) | Card 1: [B 2] (no hints) | Card 2: [W 4] (no hints) | Card 3: [W 3] (no hints)
+xingyiz: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [B 1] (no hints)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (no hints)
+
+Action Summary:
+Gave hint to btiryaki about color Y
+----------------------------------------
+
+Turn 32: btiryaki's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (color:Y) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [B 1] (no hints)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (no hints)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+
+Action Summary:
+Discarded card 1
+Information tokens: 0
+----------------------------------------
+
+Turn 33: xingyiz's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (rank:2) | Card 1: [None 0] (color:G) | Card 2: [None 0] (color:G) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (no hints) | Card 2: [Y 1] (color:Y) | Card 3: [B 1] (no hints)
+xingyiz: Card 0: (rank:2) | Card 1: (color:G) | Card 2: (color:G) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+yinjunw: Card 0: [Y 2] (color:Y) | Card 1: [W 4] (no hints) | Card 2: [W 3] (no hints) | Card 3: [B 2] (no hints)
+
+Action Summary:
+Gave hint to bob9001 about rank 2
+----------------------------------------
+
+Turn 34: bob9001's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (no hints)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 35: yinjunw's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+xingyiz: Card 0: [Y 2] (color:Y) | Card 1: [W 4] (no hints) | Card 2: [W 3] (no hints) | Card 3: [B 2] (no hints)
+bob9001: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+
+Action Summary:
+Gave hint to btiryaki about rank 2
+----------------------------------------
+
+Turn 36: huanxing's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [Y 2] (color:Y, rank:2) | Card 1: [W 4] (no hints) | Card 2: [W 3] (no hints) | Card 3: [B 2] (rank:2)
+xingyiz: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 37: btiryaki's turn
+Current Score: 6
+Current Game State:
+Stacks: R: 2 | Y: 1 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y, rank:2) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (rank:2)
+btiryaki: Card 0: (color:Y, rank:2) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (rank:2)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (no hints)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [W 5] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 7
+----------------------------------------
+
+Turn 38: xingyiz's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (rank:2) | Card 1: [None 0] (color:G) | Card 2: [None 0] (color:G) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [B 3] (no hints)
+xingyiz: Card 0: (rank:2) | Card 1: (color:G) | Card 2: (color:G) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [W 5] (no hints)
+yinjunw: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about color Y
+----------------------------------------
+
+Turn 39: bob9001's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [W 5] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 40: yinjunw's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [W 5] (no hints)
+xingyiz: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+bob9001: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (color:Y)
+
+Action Summary:
+Gave hint to xingyiz about color G
+----------------------------------------
+
+Turn 41: huanxing's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+xingyiz: Card 0: [W 2] (rank:2) | Card 1: [G 3] (color:G) | Card 2: [G 4] (color:G) | Card 3: [R 5] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [G 3] (no hints)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 42: btiryaki's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (no hints) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [G 3] (no hints)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 5] (no hints)
+
+Action Summary:
+Gave hint to xingyiz about color W
+----------------------------------------
+
+Turn 43: xingyiz's turn
+Current Score: 7
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 1 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:W, rank:2) | Card 1: [None 0] (color:G) | Card 2: [None 0] (color:G) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [G 3] (no hints)
+xingyiz: Card 0: (color:W, rank:2) | Card 1: (color:G) | Card 2: (color:G) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 5] (no hints)
+yinjunw: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+
+Action Summary:
+Played card 0 successfully
+New score: 8
+----------------------------------------
+
+Turn 44: bob9001's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 5] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 5] (no hints) | Card 3: [Y 2] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 45: yinjunw's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:R) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 5] (no hints)
+xingyiz: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+bob9001: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 5] (no hints) | Card 3: [Y 2] (no hints)
+yinjunw: Card 0: (color:R) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (color:Y)
+
+Action Summary:
+Gave hint to huanxing about color R
+----------------------------------------
+
+Turn 46: huanxing's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+xingyiz: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 5] (no hints) | Card 3: [Y 2] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+yinjunw: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 47: btiryaki's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (no hints) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+bob9001: Card 0: [R 3] (color:R) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [Y 3] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about rank 3
+----------------------------------------
+
+Turn 48: xingyiz's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:G) | Card 1: [None 0] (color:G) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+xingyiz: Card 0: (color:G) | Card 1: (color:G) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [Y 3] (no hints)
+yinjunw: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 49: bob9001's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [R 3] (color:R, rank:3) | Card 1: [B 5] (no hints) | Card 2: [G 2] (rank:2) | Card 3: [Y 3] (color:Y, rank:3)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [Y 3] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [Y 2] (no hints) | Card 3: [R 1] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about color Y
+----------------------------------------
+
+Turn 50: yinjunw's turn
+Current Score: 8
+Current Game State:
+Stacks: R: 2 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:R, rank:3) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (color:Y, rank:3)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [Y 3] (no hints)
+xingyiz: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+bob9001: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [Y 2] (no hints) | Card 3: [R 1] (no hints)
+yinjunw: Card 0: (color:R, rank:3) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (color:Y, rank:3)
+
+Action Summary:
+Played card 0 successfully
+New score: 9
+----------------------------------------
+
+Turn 51: huanxing's turn
+Current Score: 9
+Current Game State:
+Stacks: R: 3 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+xingyiz: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [Y 2] (no hints) | Card 3: [R 1] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+yinjunw: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 3] (color:Y, rank:3) | Card 3: [Y 4] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 52: btiryaki's turn
+Current Score: 9
+Current Game State:
+Stacks: R: 3 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (no hints) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+bob9001: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 3] (color:Y, rank:3) | Card 3: [Y 4] (no hints)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 1] (no hints)
+
+Action Summary:
+Gave hint to xingyiz about color G
+----------------------------------------
+
+Turn 53: xingyiz's turn
+Current Score: 9
+Current Game State:
+Stacks: R: 3 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:G) | Card 1: [None 0] (color:G) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+xingyiz: Card 0: (color:G) | Card 1: (color:G) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 1] (no hints)
+yinjunw: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 54: bob9001's turn
+Current Score: 9
+Current Game State:
+Stacks: R: 3 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 3] (color:Y, rank:3) | Card 3: [Y 4] (no hints)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 1] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 1] (no hints) | Card 3: [W 1] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about color Y
+----------------------------------------
+
+Turn 55: yinjunw's turn
+Current Score: 9
+Current Game State:
+Stacks: R: 3 | Y: 2 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y, rank:3) | Card 3: [None 0] (color:Y)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 1] (no hints)
+xingyiz: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+bob9001: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 1] (no hints) | Card 3: [W 1] (no hints)
+yinjunw: Card 0: (no hints) | Card 1: (rank:2) | Card 2: (color:Y, rank:3) | Card 3: (color:Y)
+
+Action Summary:
+Played card 2 successfully
+New score: 10
+----------------------------------------
+
+Turn 56: huanxing's turn
+Current Score: 10
+Current Game State:
+Stacks: R: 3 | Y: 3 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+xingyiz: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [R 1] (no hints) | Card 3: [W 1] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+yinjunw: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 4] (color:Y) | Card 3: [R 4] (no hints)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Turn 57: btiryaki's turn
+Current Score: 10
+Current Game State:
+Stacks: R: 3 | Y: 3 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (rank:2) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: (no hints) | Card 1: (no hints) | Card 2: (rank:2) | Card 3: (no hints)
+xingyiz: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+bob9001: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 4] (color:Y) | Card 3: [R 4] (no hints)
+yinjunw: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 4] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about rank 4
+----------------------------------------
+
+Turn 58: xingyiz's turn
+Current Score: 10
+Current Game State:
+Stacks: R: 3 | Y: 3 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:G) | Card 1: [None 0] (color:G) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+xingyiz: Card 0: (color:G) | Card 1: (color:G) | Card 2: (no hints) | Card 3: (no hints)
+bob9001: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 4] (no hints)
+yinjunw: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+
+Action Summary:
+Discarded card 2
+Information tokens: 0
+----------------------------------------
+
+Turn 59: bob9001's turn
+Current Score: 10
+Current Game State:
+Stacks: R: 3 | Y: 3 | G: 2 | W: 2 | B: 0
+Info tokens: 1 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (color:Y) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+btiryaki: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [Y 4] (color:Y, rank:4) | Card 3: [R 4] (rank:4)
+xingyiz: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 4] (no hints)
+bob9001: Card 0: (color:Y) | Card 1: (rank:2) | Card 2: (color:Y) | Card 3: (no hints)
+yinjunw: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [W 1] (no hints)
+
+Action Summary:
+Gave hint to yinjunw about color Y
+----------------------------------------
+
+Turn 60: yinjunw's turn
+Current Score: 10
+Current Game State:
+Stacks: R: 3 | Y: 3 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: [None 0] (no hints) | Card 1: [None 0] (rank:2) | Card 2: [None 0] (color:Y, rank:4) | Card 3: [None 0] (rank:4)
+btiryaki: Card 0: [R 2] (color:R) | Card 1: [R 3] (color:R) | Card 2: [Y 1] (color:Y) | Card 3: [G 4] (no hints)
+xingyiz: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+bob9001: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [W 1] (no hints)
+yinjunw: Card 0: (no hints) | Card 1: (rank:2) | Card 2: (color:Y, rank:4) | Card 3: (rank:4)
+
+Action Summary:
+Played card 2 successfully
+New score: 11
+----------------------------------------
+
+Turn 61: huanxing's turn
+Current Score: 11
+Current Game State:
+Stacks: R: 3 | Y: 4 | G: 2 | W: 2 | B: 0
+Info tokens: 0 | Life tokens: 2
+Hands:
+huanxing: Card 0: (color:R) | Card 1: (color:R) | Card 2: (color:Y) | Card 3: (no hints)
+btiryaki: Card 0: [W 4] (no hints) | Card 1: [W 3] (no hints) | Card 2: [B 2] (rank:2) | Card 3: [B 4] (no hints)
+xingyiz: Card 0: [G 3] (color:G) | Card 1: [G 4] (color:G) | Card 2: [W 1] (no hints)
+bob9001: Card 0: [Y 4] (color:Y) | Card 1: [W 2] (rank:2) | Card 2: [Y 1] (color:Y) | Card 3: [W 1] (no hints)
+yinjunw: Card 0: [B 5] (no hints) | Card 1: [G 2] (rank:2) | Card 2: [R 4] (rank:4)
+
+Action Summary:
+Discarded card 3
+Information tokens: 0
+----------------------------------------
+
+Game Complete! Final Statistics:
+Final Score: 11
+Total Turns: 61
+Lives Lost: 1
+Hints Given: 28
+Cards Played: 12
+Cards Discarded: 21
+
+Player Action Summary:
+
+huanxing:
+- REVEAL_COLOR: 2
+- PLAY: 3
+- DISCARD: 7
+- REVEAL_RANK: 1
+
+btiryaki:
+- REVEAL_RANK: 5
+- REVEAL_COLOR: 4
+- PLAY: 2
+- DISCARD: 1
+
+xingyiz:
+- REVEAL_COLOR: 3
+- DISCARD: 6
+- PLAY: 2
+- REVEAL_RANK: 1
+
+bob9001:
+- PLAY: 1
+- REVEAL_COLOR: 7
+- DISCARD: 4
+
+yinjunw:
+- REVEAL_COLOR: 4
+- DISCARD: 3
+- PLAY: 4
+- REVEAL_RANK: 1
+
+Score Progression: [0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11]
+
+Game log saved to: hanabi_game_20241208_170437.txt

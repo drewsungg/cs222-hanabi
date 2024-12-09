@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hanabi_learning_environment
+Version: 0.0.1
+Summary: Learning environment for the game of hanabi.
+Author: deepmind/hanabi-learning-environment
+License-File: LICENSE
+Requires-Dist: cffi
