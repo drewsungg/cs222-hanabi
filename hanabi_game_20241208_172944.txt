@@ -1,0 +1,65 @@
+
+Game Starting! Meet our players:
+
+vinocour's persona: age 18-24 female from a suburban area values ambition thoughtful person friendly in nature enjoys working on personal projects interested in arts & crafts politically liberal has 2-3 close friends Myers-Briggs type infj seeks personal development concerned about failure and loss approaches problems through asking for help makes decisions by analyzing all options is spiritual but not religious values family heirloom aspires to becoming a leader in my field values intelligence, loyalty in others identifies as hispanic/latino, speaks spanish
+
+wpo's persona: age 25-34 male from a rural area values ambition introverted person reserved in nature enjoys working on personal projects interested in video games politically conservative has 4-5 close friends Myers-Briggs type entj seeks career growth concerned about failure approaches problems through intuition makes decisions by analyzing all options is agnostic values jewelry aspires to financial independence values honesty in others identifies as white/caucasian, speaks english
+
+riyadule's persona: age 18-24 female from a urban area values compassion outgoing person friendly in nature enjoys travelling interested in travelling politically liberal has 3 close friends Myers-Briggs type i don't know seeks career growth concerned about loneliness approaches problems through intuition makes decisions by seeking advice is spiritual but not religious values home aspires to achieving work-life balance values humor in others identifies as asian, speaks english
+
+kwonko's persona: age 25-34 male from a seoul, korea area values ambition extroverted person neutral in nature enjoys traveling interested in sports politically moderate has 4-5 close friends Myers-Briggs type intj seeks personal development concerned about loss approaches problems through logical analysis makes decisions by find best solution values macbook aspires to startup values loyalty in others identifies as asian, speaks korean
+
+changamy's persona: age 18-24 female from a urban area values ambition analytical person awkward in nature enjoys traveling interested in traveling politically liberal has 2-3 close friends Myers-Briggs type inpj seeks financial stability concerned about loss approaches problems through intuition makes decisions by taking immediate action is atheist values tech gadget aspires to helping others values intelligence in others identifies as asian, speaks chinese
+
+================================================================================
+
+
+Turn 1: vinocour's turn
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 8 | Life tokens: 3
+Hands:
+vinocour: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+wpo: Card 0: [R 5] (no hints) | Card 1: [B 2] (no hints) | Card 2: [Y 1] (no hints) | Card 3: [B 3] (no hints)
+riyadule: Card 0: [R 2] (no hints) | Card 1: [W 2] (no hints) | Card 2: [Y 1] (no hints) | Card 3: [W 3] (no hints)
+kwonko: Card 0: [W 1] (no hints) | Card 1: [R 1] (no hints) | Card 2: [G 1] (no hints) | Card 3: [W 4] (no hints)
+changamy: Card 0: [Y 3] (no hints) | Card 1: [G 4] (no hints) | Card 2: [G 5] (no hints) | Card 3: [R 4] (no hints)
+Action taken: REVEAL_COLOR hint color Y
+----------------------------------------
+
+Turn 2: wpo's turn
+Current Game State:
+Stacks: R: 0 | Y: 0 | G: 0 | W: 0 | B: 0
+Info tokens: 7 | Life tokens: 3
+Hands:
+vinocour: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (color:Y) | Card 3: [None 0] (no hints)
+wpo: Card 0: (no hints) | Card 1: (no hints) | Card 2: (color:Y) | Card 3: (no hints)
+riyadule: Card 0: [W 1] (no hints) | Card 1: [R 1] (no hints) | Card 2: [G 1] (no hints) | Card 3: [W 4] (no hints)
+kwonko: Card 0: [Y 3] (no hints) | Card 1: [G 4] (no hints) | Card 2: [G 5] (no hints) | Card 3: [R 4] (no hints)
+changamy: Card 0: [B 1] (no hints) | Card 1: [B 5] (no hints) | Card 2: [Y 4] (no hints) | Card 3: [R 3] (no hints)
+Action taken: PLAY card 2
+----------------------------------------
+
+Turn 3: riyadule's turn
+Current Game State:
+Stacks: R: 0 | Y: 1 | G: 0 | W: 0 | B: 0
+Info tokens: 7 | Life tokens: 3
+Hands:
+vinocour: Card 0: [None 0] (no hints) | Card 1: [None 0] (no hints) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+wpo: Card 0: [W 1] (no hints) | Card 1: [R 1] (no hints) | Card 2: [G 1] (no hints) | Card 3: [W 4] (no hints)
+riyadule: Card 0: (no hints) | Card 1: (no hints) | Card 2: (no hints) | Card 3: (no hints)
+kwonko: Card 0: [B 1] (no hints) | Card 1: [B 5] (no hints) | Card 2: [Y 4] (no hints) | Card 3: [R 3] (no hints)
+changamy: Card 0: [R 5] (no hints) | Card 1: [B 2] (no hints) | Card 2: [B 3] (no hints) | Card 3: [B 4] (no hints)
+Action taken: REVEAL_COLOR hint color R
+----------------------------------------
+
+Turn 4: kwonko's turn
+Current Game State:
+Stacks: R: 0 | Y: 1 | G: 0 | W: 0 | B: 0
+Info tokens: 6 | Life tokens: 3
+Hands:
+vinocour: Card 0: [None 0] (no hints) | Card 1: [None 0] (color:R) | Card 2: [None 0] (no hints) | Card 3: [None 0] (no hints)
+wpo: Card 0: [Y 3] (no hints) | Card 1: [G 4] (no hints) | Card 2: [G 5] (no hints) | Card 3: [R 4] (no hints)
+riyadule: Card 0: [B 1] (no hints) | Card 1: [B 5] (no hints) | Card 2: [Y 4] (no hints) | Card 3: [R 3] (no hints)
+kwonko: Card 0: (no hints) | Card 1: (color:R) | Card 2: (no hints) | Card 3: (no hints)
+changamy: Card 0: [R 2] (no hints) | Card 1: [W 2] (no hints) | Card 2: [Y 1] (no hints) | Card 3: [W 3] (no hints)
