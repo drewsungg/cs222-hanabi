@@ -41,6 +41,7 @@ class HanabiLLMAgent(SimpleAgent):
         self.teammate_play_patterns = {}  # Track teammate play patterns
         self.success_rate = {}  # Track success rate per color/rank
         self.revealed_information = defaultdict(set)  # Track revealed info per player
+        self.game_params = config.get("game", {}).get("game_parameters", {})
 
     def _update_revealed_information(self, move, observation):
         """Update revealed information based on the given hint."""
@@ -62,46 +63,45 @@ class HanabiLLMAgent(SimpleAgent):
         """
         if not move['action_type'].startswith('REVEAL'):
             return False
-
-        target_player = (observation['current_player'] + move['target_offset']) % len(self.all_player_names)
-        target_hand = observation['observed_hands'][move['target_offset']]
+        target_offset = move['target_offset']
+        target_player = (observation['current_player'] + target_offset) % len(self.all_player_names)
+        target_hand = observation['observed_hands'][target_offset]
         fireworks = observation['fireworks']
 
-        # Check if the hint affects any playable card in the target hand
-        if move['action_type'] == 'REVEAL_COLOR':
-            return any(
-                card['color'] == move['color'] and fireworks[card['color']] == card['rank']
-                for card in target_hand if card is not None
-            )
-        elif move['action_type'] == 'REVEAL_RANK':
-            return any(
-                card['rank'] == move['rank'] and fireworks[card['color']] == card['rank']
-                for card in target_hand if card is not None
-            )
+        # Check if the hint affects any card
+        affects_any = False
+        for card in target_hand:
+            if card is None:
+                continue
+            if move['action_type'] == 'REVEAL_COLOR' and card['color'] == move['color']:
+                affects_any = True
+                break
+            if move['action_type'] == 'REVEAL_RANK' and card['rank'] == move['rank']:
+                affects_any = True
+                break
 
-        return False
+        if not affects_any:
+            return False
+
+        # If it doesn't reveal a playable card or something not already known, degrade.
+        # Check if it provides new info:
+        target_knowledge = observation['card_knowledge'][target_offset]
+        new_info = False
+        for i, card in enumerate(target_hand):
+            if card is None:
+                continue
+            c_kn = target_knowledge[i]
+            if move['action_type'] == 'REVEAL_COLOR' and card['color'] == move['color'] and c_kn['color'] is None:
+                new_info = True
+            if move['action_type'] == 'REVEAL_RANK' and card['rank'] == move['rank'] and c_kn['rank'] is None:
+                new_info = True
+        return new_info
 
     def _is_hint_redundant(self, move, observation):
         """Check if the hint is redundant based on revealed information."""
-        target_player = (observation['current_player'] + move['target_offset']) % len(self.all_player_names)
-        target_name = self.all_player_names[target_player]
-        target_hand = observation['observed_hands'][move['target_offset']]
-        
-        if move['action_type'] == 'REVEAL_COLOR':
-            # Check if the hint about this color adds new information
-            for idx, card in enumerate(target_hand):
-                if card and card['color'] == move['color'] and f"color_{move['color']}" not in self.revealed_information[target_name]:
-                    return False
-            return True  # No new information provided
-        
-        elif move['action_type'] == 'REVEAL_RANK':
-            # Check if the hint about this rank adds new information
-            for idx, card in enumerate(target_hand):
-                if card and card['rank'] == move['rank'] and f"rank_{move['rank']}" not in self.revealed_information[target_name]:
-                    return False
-            return True  # No new information provided
-        
-        return True  # Default to redundant if no valid cases found
+        # If it's valid and provides new info, consider it non-redundant.
+        return not self._is_valid_hint(move, observation)
+
 
     def _track_play_outcome(self, action, observation, success):
         """Track play outcomes to learn from mistakes and successes."""
@@ -1226,53 +1226,59 @@ def format_game_state(observation, agents):
     info_tokens = observation['information_tokens']
     life_tokens = observation['life_tokens']
     current_player_id = observation['current_player']
+    num_players = len(agents)
     
     # Format fireworks (stacks)
-    stack_status = []
-    for color, height in fireworks.items():
-        stack_status.append(f"{color}: {height}")
-    
+    stack_status = [f"{color}: {height}" for color, height in fireworks.items()]
+
     # Format hand information for all players
     hand_info = []
-    for player_idx, hand in enumerate(observation['observed_hands']):
-        player_name = agents[player_idx].name
+    for relative_idx, hand in enumerate(observation['observed_hands']):
+        # Convert relative index to global player ID
+        global_player_id = (current_player_id + relative_idx) % num_players
+        player_name = agents[global_player_id].name
+
         cards_info = []
-        
-        # If this is the current player, show their cards as hidden but with hints
-        if player_idx == current_player_id:
-            for card_idx, _ in enumerate(observation['card_knowledge'][0]):
+        # If this is the current player
+        if global_player_id == current_player_id:
+            # Current player's cards are unknown to themselves, just show hints
+            # card_knowledge[0] refers to the current player's hand knowledge
+            for card_idx, card_kn in enumerate(observation['card_knowledge'][0]):
                 hints = []
-                card_knowledge = observation['card_knowledge'][0][card_idx]
-                if card_knowledge['color'] is not None:
-                    hints.append(f"color:{card_knowledge['color']}")
-                if card_knowledge['rank'] is not None:
-                    hints.append(f"rank:{card_knowledge['rank'] + 1}")
+                if card_kn['color'] is not None:
+                    hints.append(f"color:{card_kn['color']}")
+                if card_kn['rank'] is not None:
+                    hints.append(f"rank:{card_kn['rank']+1}")
                 hint_str = f"({', '.join(hints)})" if hints else "(no hints)"
                 cards_info.append(f"Card {card_idx}: {hint_str}")
         else:
-            # For other players, show their cards and hints
+            # For other players, you can see their cards fully from current player's perspective
+            # observation['card_knowledge'][relative_idx] gives the knowledge about this player’s hand
+            card_knowledge_for_player = observation['card_knowledge'][relative_idx]
             for card_idx, card in enumerate(hand):
-                hints = []
-                if card:  # Card might be None if already played
-                    card_knowledge = observation['card_knowledge'][player_idx][card_idx]
-                    visible_str = f"[{card['color']} {card['rank'] + 1}]"
-                    if card_knowledge['color'] is not None:
-                        hints.append(f"color:{card_knowledge['color']}")
-                    if card_knowledge['rank'] is not None:
-                        hints.append(f"rank:{card_knowledge['rank'] + 1}")
-                    hint_str = f"({', '.join(hints)})" if hints else "(no hints)"
-                    cards_info.append(f"Card {card_idx}: {visible_str} {hint_str}")
-                else:
+                if card is None:
+                    # Card already played or replaced, just show empty
                     cards_info.append(f"Card {card_idx}: (empty)")
-        
+                    continue
+
+                # card is known, we can show its color/rank
+                visible_str = f"[{card['color']} {card['rank']+1}]"
+                hints = []
+                c_kn = card_knowledge_for_player[card_idx]
+                if c_kn['color'] is not None:
+                    hints.append(f"color:{c_kn['color']}")
+                if c_kn['rank'] is not None:
+                    hints.append(f"rank:{c_kn['rank']+1}")
+                hint_str = f"({', '.join(hints)})" if hints else "(no hints)"
+                cards_info.append(f"Card {card_idx}: {visible_str} {hint_str}")
+
         hand_info.append(f"{player_name}: {' | '.join(cards_info)}")
-    
+
     state_str = "Current Game State:\n"
     state_str += f"Stacks: {' | '.join(stack_status)}\n"
     state_str += f"Info tokens: {info_tokens} | Life tokens: {life_tokens}\n"
-    state_str += "Hands:\n"
-    state_str += '\n'.join(hand_info)
-    
+    state_str += "Hands:\n" + '\n'.join(hand_info)
+
     return state_str
 
 def run_game():
