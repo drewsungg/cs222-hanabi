@@ -1,0 +1,229 @@
+/* Hanabi LLM Agent Viewer */
+
+:root {
+  --bg: #1a1a2e;
+  --surface: #16213e;
+  --card-bg: #0f3460;
+  --text: #e0e0e0;
+  --dim: #888;
+  --accent: #e94560;
+  --R: #e74c3c;
+  --Y: #f1c40f;
+  --G: #2ecc71;
+  --W: #ecf0f1;
+  --B: #3498db;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.hidden { display: none !important; }
+
+/* ---------- Config panel ---------- */
+.panel {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 32px;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.4);
+}
+.panel h1 {
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.panel .sub { color: var(--dim); font-weight: 400; font-size: 1rem; }
+.form-row { margin-bottom: 16px; }
+.form-row label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: .85rem;
+  color: var(--dim);
+}
+.form-row select,
+.form-row input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: .95rem;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+button:hover { opacity: .85; }
+button:disabled { opacity: .4; cursor: not-allowed; }
+.error { color: var(--accent); margin-top: 12px; text-align: center; }
+
+/* ---------- Top bar ---------- */
+#top-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 24px;
+  background: var(--surface);
+  border-bottom: 1px solid #333;
+  flex-wrap: wrap;
+}
+.token-group { text-align: center; }
+.token-group .label { display: block; font-size: .7rem; color: var(--dim); text-transform: uppercase; }
+.token-group .big { font-size: 1.4rem; font-weight: 700; }
+.dim { color: var(--dim); font-size: .9rem; }
+
+#speed-control { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: .85rem; }
+#speed { width: 100px; }
+
+/* ---------- Fireworks ---------- */
+#fireworks { padding: 16px 24px; }
+#fireworks h2 { font-size: 1rem; margin-bottom: 8px; color: var(--dim); }
+#firework-stacks { display: flex; gap: 12px; }
+.fw-stack {
+  width: 64px;
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: 2px solid;
+}
+.fw-stack .fw-label { font-size: .65rem; text-transform: uppercase; letter-spacing: 1px; }
+.fw-R { border-color: var(--R); color: var(--R); }
+.fw-Y { border-color: var(--Y); color: var(--Y); }
+.fw-G { border-color: var(--G); color: var(--G); }
+.fw-W { border-color: var(--W); color: var(--W); }
+.fw-B { border-color: var(--B); color: var(--B); }
+
+/* ---------- Hands ---------- */
+#hands-area { padding: 16px 24px; display: flex; flex-wrap: wrap; gap: 20px; }
+.player-hand { min-width: 200px; }
+.player-hand .ph-name {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: .9rem;
+}
+.player-hand .ph-name.active { color: var(--accent); }
+.ph-cards { display: flex; gap: 6px; }
+.card {
+  width: 48px;
+  height: 68px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 2px solid transparent;
+  position: relative;
+}
+.card.c-R { background: var(--R); color: #fff; }
+.card.c-Y { background: var(--Y); color: #333; }
+.card.c-G { background: var(--G); color: #fff; }
+.card.c-W { background: var(--W); color: #333; }
+.card.c-B { background: var(--B); color: #fff; }
+.card.c-unknown { background: #444; color: var(--dim); }
+
+.card .hint-dot {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- Discard ---------- */
+#discard-section { padding: 12px 24px; }
+#discard-section h3 { font-size: .9rem; color: var(--dim); margin-bottom: 6px; }
+#discard-pile { display: flex; flex-wrap: wrap; gap: 4px; }
+.discard-card {
+  width: 32px;
+  height: 44px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 600;
+}
+.discard-card.c-R { background: var(--R); color: #fff; }
+.discard-card.c-Y { background: var(--Y); color: #333; }
+.discard-card.c-G { background: var(--G); color: #fff; }
+.discard-card.c-W { background: var(--W); color: #333; }
+.discard-card.c-B { background: var(--B); color: #fff; }
+
+/* ---------- Log ---------- */
+#log-section { padding: 12px 24px; max-height: 400px; overflow-y: auto; }
+#log-section h3 { font-size: .9rem; color: var(--dim); margin-bottom: 8px; }
+.log-entry {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: var(--surface);
+  border-radius: 6px;
+  font-size: .85rem;
+  border-left: 3px solid #555;
+  cursor: pointer;
+}
+.log-entry.success { border-left-color: var(--G); }
+.log-entry.fail { border-left-color: var(--R); }
+.log-entry .le-header { display: flex; justify-content: space-between; }
+.log-entry .le-player { font-weight: 600; }
+.log-entry .le-turn { color: var(--dim); font-size: .75rem; }
+.log-entry .le-action { margin-top: 4px; }
+.log-entry .le-reasoning {
+  display: none;
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--bg);
+  border-radius: 4px;
+  font-size: .8rem;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.log-entry.expanded .le-reasoning { display: block; }
+
+/* ---------- Game over ---------- */
+#gameover-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.gameover-box {
+  background: var(--surface);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 300px;
+}
+.gameover-box h2 { margin-bottom: 16px; }
+.gameover-box p { margin-bottom: 8px; color: var(--dim); }
+.gameover-box button { margin-top: 16px; width: auto; padding: 10px 32px; }
+
+#final-score { font-size: 2rem; font-weight: 700; color: var(--accent); }
