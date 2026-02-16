@@ -151,4 +151,4 @@ Hanabi is a **cooperative** card game for 2-5 players. The goal is to build five
 
 ## License
 
-Stanford CS 222 course project.
+[Stanford CS 222](https://joonspk-research.github.io/cs222-fall24/) course project.
