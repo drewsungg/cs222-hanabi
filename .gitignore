@@ -1,4 +1,6 @@
 .env
 *.pyc
+__pycache__/
 /.venv
 settings.py
+hanabi_game_*.txt
